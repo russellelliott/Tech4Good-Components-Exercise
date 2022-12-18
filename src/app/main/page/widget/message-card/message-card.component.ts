@@ -9,6 +9,7 @@ export class MessageCardComponent implements OnInit {
   
   @Input() message: string;
   @Input() name: string;
+  @Input() major: string;
 
   constructor() { 
   }
