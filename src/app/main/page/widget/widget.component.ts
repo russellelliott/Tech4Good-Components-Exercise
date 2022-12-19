@@ -38,6 +38,20 @@ export class WidgetComponent implements OnInit {
 
   editProject() {
     console.log('Editing project!');
+
+    // edit the one-year goal
+    console.log(this.longTermGoal.oneYear);
+    let oneYear = prompt("Enter a goal you want to achieve in 1 year.", this.longTermGoal.oneYear);
+    if (oneYear != null) {
+      this.longTermGoal.oneYear = oneYear;
+    }
+
+    // edit the five-year goal
+    console.log(this.longTermGoal.fiveYear);
+    let fiveYear = prompt("Enter a goal you want to achieve in 5 years.", this.longTermGoal.fiveYear);
+    if (fiveYear != null) {
+      this.longTermGoal.fiveYear = fiveYear;
+    }
   }
 
   removeProject() {
