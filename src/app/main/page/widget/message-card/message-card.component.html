@@ -6,4 +6,12 @@
     <div class="bio">{{message}}</div>
   </div>
 </div>
+
+<button class="goToProjPage" (click)='goToProj.emit()'>Go to project page</button>
+  <div class="action-footer">
+    <!-- Click Events added to the images below. -->
+    <img (click)='editProj.emit()' src="https://icongr.am/clarity/note-edit.svg">
+    <img (click)='removeProj.emit()' src="https://icongr.am/clarity/trash.svg">
+  </div>
+
 </div>

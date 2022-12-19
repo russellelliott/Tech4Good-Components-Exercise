@@ -31,6 +31,18 @@ export class WidgetComponent implements OnInit {
 
   // --------------- HELPER FUNCTIONS AND OTHER ----------
 
+  viewProject() {
+    console.log('Viewing project!');
+  }
+
+  editProject() {
+    console.log('Editing project!');
+  }
+
+  removeProject() {
+    console.log('Removing project!');
+  }
+
   constructor() { }
 
   ngOnInit(): void {
