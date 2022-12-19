@@ -33,6 +33,7 @@ export class WidgetComponent implements OnInit {
 
   viewProject() {
     console.log('Viewing project!');
+    console.log(this);
   }
 
   editProject() {

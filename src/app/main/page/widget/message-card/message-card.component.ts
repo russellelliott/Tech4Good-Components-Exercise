@@ -7,9 +7,11 @@ import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 })
 export class MessageCardComponent implements OnInit {
   
-  @Input() message: string;
+  /*@Input() message: string;
   @Input() name: string;
-  @Input() major: string;
+  @Input() major: string;*/
+  /** An object representing details about a project */
+  @Input() project;
 
   /** Edit a project */
   @Output() editProj: EventEmitter<void> = new EventEmitter<void>();
@@ -24,10 +26,6 @@ export class MessageCardComponent implements OnInit {
   }
 
   ngOnInit() {
-  }
-
-  repeatedName() {
-    return this.name + this.name + this.name;
   }
 
 }
