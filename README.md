@@ -69,5 +69,7 @@ In the home page, use the component as `app-component-name`
 
 ## Demo
 [Github Repo](https://github.com/russellelliott/Tech4Good-Components-Exercise)
+
 [Live Demo](https://longtermgoals-setup-xwuxqp.stackblitz.io/#/page)
+
 [Edit on StackBlitz](https://stackblitz.com/edit/longtermgoals-setup-xwuxqp)
